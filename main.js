@@ -5,9 +5,9 @@ var token = "NTY0NDg1MzM5NDk4OTM4NDA4.XKoj8A.9iXanMgmqPZQqCkTRp44QUkDStU";
 // الاختصار المستخدم في الاوامر
 const prefix = "%";
 // نشاط البوت
-var activity = "TestBot";
+var activity = "testbotrp";
 // حالة البوت
-var status = "Active";
+var status = "idle";
 /**
 * @param {Discord.Message} message The received message
 */
@@ -43,7 +43,7 @@ async function onMessage(message)
 				case "msgall":
 					if(message.member.hasPermission(Discord.Permissions.ALL))
 					{
-						message.reply('Wait');
+						message.reply('Sbar awld 97ba');
 						let members = await message.guild.members.fetch();
 						var sentsuccess = 0;
 						var bots = 0;
@@ -70,11 +70,11 @@ async function onMessage(message)
 								console.log(exception);
 							}
 						});
-						message.channel.send("Message sent successfuly " + sentsuccess + "/" + (message.guild.memberCount - bots) + ".");
+						message.channel.send("Rani sifit lmessage awld 97ba " + sentsuccess + "/" + (message.guild.memberCount - bots) + ".");
 					}
 					else
 					{
-						message.reply("You don't have the permission");
+						message.reply("dort t9awd ma3andkch permission awld 97ba");
 					}
 				break;
 				case 'play':
